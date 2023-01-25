@@ -1,35 +1,51 @@
-.board{
-    width: 600px;
-    margin: 0 auto;
-}
-.options{
-    width: 100%;
-}
-
-button {
-    background-color: yellow;
-    padding: 12px;
-    border: 10px;
-    font-weight: 700;
-    margin: 10px auto;
-    width: 200px;
-    border-radius: 12px;
-    display: block;
-    /* height: 30px; */
+body {
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-img{
-    background-color: orange;
-    border: 10px;
-    font-weight: 10px;
-    width: 350px;
-    margin: 0 auto;
-    display: block;
+table {
+    margin: auto;
+}
 
+.cell {
+    width: 40px;
+    height: 40px;
+}
 
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.mokesh {
+    width: 40px;
+    height: 40px;
+}
+
+.mokesh img {
+    width: 25px;
+    height: auto;
 }
 
 
-.restart {
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+.modal {
     display: none;
+    background-color: black;
+    border: 5px solid white;
+    width: 300px;
+    padding: 20px;
+
+    position: absolute;
+    top: 300px;
+    left: calc(50% - 175px);
 }
