@@ -1,0 +1,35 @@
+.board{
+    width: 600px;
+    margin: 0 auto;
+}
+.options{
+    width: 100%;
+}
+
+button {
+    background-color: yellow;
+    padding: 12px;
+    border: 10px;
+    font-weight: 700;
+    margin: 10px auto;
+    width: 200px;
+    border-radius: 12px;
+    display: block;
+    /* height: 30px; */
+}
+
+img{
+    background-color: orange;
+    border: 10px;
+    font-weight: 10px;
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+
+
+}
+
+
+.restart {
+    display: none;
+}
